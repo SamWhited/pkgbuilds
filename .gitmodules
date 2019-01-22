@@ -1,63 +1,84 @@
 [submodule "jackal-git"]
 	path = jackal-git
-	url = ssh://aur@aur.archlinux.org/jackal-git.git
+	url = https://aur.archlinux.org/jackal-git.git
+	pushUrl = ssh://aur@aur.archlinux.org/jackal-git.git
 [submodule "jackal"]
 	path = jackal
-	url = ssh://aur@aur.archlinux.org/jackal.git
+	url = https://aur.archlinux.org/jackal.git
+	pushUrl = ssh://aur@aur.archlinux.org/jackal.git
 [submodule "writefreely-git"]
 	path = writefreely-git
-	url = ssh://aur@aur.archlinux.org/writefreely-git.git
+	url = https://aur.archlinux.org/writefreely-git.git
+	pushUrl = ssh://aur@aur.archlinux.org/writefreely-git.git
 [submodule "writefreely"]
 	path = writefreely
-	url = ssh://aur@aur.archlinux.org/writefreely.git
+	url = https://aur.archlinux.org/writefreely.git
+	pushUrl = ssh://aur@aur.archlinux.org/writefreely.git
 [submodule "python-aioxmpp"]
 	path = python-aioxmpp
-	url = ssh://aur@aur.archlinux.org/python-aioxmpp.git
+	url = https://aur.archlinux.org/python-aioxmpp.git
+	pushUrl = ssh://aur@aur.archlinux.org/python-aioxmpp.git
 [submodule "python-aioxmpp-git"]
 	path = python-aioxmpp-git
-	url = ssh://aur@aur.archlinux.org/python-aioxmpp-git.git
+	url = https://aur.archlinux.org/python-aioxmpp-git.git
+	pushUrl = ssh://aur@aur.archlinux.org/python-aioxmpp-git.git
 [submodule "go-tools-git"]
 	path = go-tools-git
-	url = ssh://aur@aur.archlinux.org/go-tools-git.git
+	url = https://aur.archlinux.org/go-tools-git.git
+	pushUrl = ssh://aur@aur.archlinux.org/go-tools-git.git
 [submodule "gitea-git"]
 	path = gitea-git
-	url = ssh://aur@aur.archlinux.org/gitea-git.git
+	url = https://aur.archlinux.org/gitea-git.git
+	pushUrl = ssh://aur@aur.archlinux.org/gitea-git.git
 [submodule "python-psycopg2-binary"]
 	path = python-psycopg2-binary
-	url = ssh://aur@aur.archlinux.org/python-psycopg2-binary.git
+	url = https://aur.archlinux.org/python-psycopg2-binary.git
+	pushUrl = ssh://aur@aur.archlinux.org/python-psycopg2-binary.git
 [submodule "python-aiosasl"]
 	path = python-aiosasl
-	url = ssh://aur@aur.archlinux.org/python-aiosasl.git
+	url = https://aur.archlinux.org/python-aiosasl.git
+	pushUrl = ssh://aur@aur.archlinux.org/python-aiosasl.git
 [submodule "hugo-git"]
 	path = hugo-git
-	url = ssh://aur@aur.archlinux.org/hugo-git.git
+	url = https://aur.archlinux.org/hugo-git.git
+	pushUrl = ssh://aur@aur.archlinux.org/hugo-git.git
 [submodule "writeas-gtk"]
 	path = writeas-gtk
-	url = ssh://aur@aur.archlinux.org/writeas-gtk.git
+	url = https://aur.archlinux.org/writeas-gtk.git
+	pushUrl = ssh://aur@aur.archlinux.org/writeas-gtk.git
 [submodule "prometheus-xmpp-webhook"]
 	path = prometheus-xmpp-webhook
-	url = ssh://aur@aur.archlinux.org/prometheus-xmpp-webhook.git
+	url = https://aur.archlinux.org/prometheus-xmpp-webhook.git
+	pushUrl = ssh://aur@aur.archlinux.org/prometheus-xmpp-webhook.git
 [submodule "prometheus-xmpp-webhook-bin"]
 	path = prometheus-xmpp-webhook-bin
-	url = ssh://aur@aur.archlinux.org/prometheus-xmpp-webhook-bin.git
+	url = https://aur.archlinux.org/prometheus-xmpp-webhook-bin.git
+	pushUrl = ssh://aur@aur.archlinux.org/prometheus-xmpp-webhook-bin.git
 [submodule "prometheus-xmpp-webhook-git"]
 	path = prometheus-xmpp-webhook-git
-	url = ssh://aur@aur.archlinux.org/prometheus-xmpp-webhook-git.git
+	url = https://aur.archlinux.org/prometheus-xmpp-webhook-git.git
+	pushUrl = ssh://aur@aur.archlinux.org/prometheus-xmpp-webhook-git.git
 [submodule "writeas-gtk-git"]
 	path = writeas-gtk-git
-	url = ssh://aur@aur.archlinux.org/writeas-gtk-git.git
+	url = https://aur.archlinux.org/writeas-gtk-git.git
+	pushUrl = ssh://aur@aur.archlinux.org/writeas-gtk-git.git
 [submodule "writeas-cli-git"]
 	path = writeas-cli-git
-	url = ssh://aur@aur.archlinux.org/writeas-cli-git.git
+	url = https://aur.archlinux.org/writeas-cli-git.git
+	pushUrl = ssh://aur@aur.archlinux.org/writeas-cli-git.git
 [submodule "writeas-cli"]
 	path = writeas-cli
-	url = ssh://aur@aur.archlinux.org/writeas-cli.git
+	url = https://aur.archlinux.org/writeas-cli.git
+	pushUrl = ssh://aur@aur.archlinux.org/writeas-cli.git
 [submodule "python-rawkit-git"]
 	path = python-rawkit-git
-	url = ssh://aur@aur.archlinux.org/python-rawkit-git.git
+	url = https://aur.archlinux.org/python-rawkit-git.git
+	pushUrl = ssh://aur@aur.archlinux.org/python-rawkit-git.git
 [submodule "python-aioopenssl"]
 	path = python-aioopenssl
-	url = ssh://aur@aur.archlinux.org/python-aioopenssl.git
+	url = https://aur.archlinux.org/python-aioopenssl.git
+	pushUrl = ssh://aur@aur.archlinux.org/python-aioopenssl.git
 [submodule "libraw16"]
 	path = libraw16
-	url = ssh://aur@aur.archlinux.org/libraw16.git
+	url = https://aur.archlinux.org/libraw16.git
+	pushUrl = ssh://aur@aur.archlinux.org/libraw16.git
