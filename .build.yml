@@ -6,8 +6,9 @@ sources:
   - https://git.sr.ht/~samwhited/pkgbuilds
 tasks:
   - lint: |
-      find pkgbuilds/ -name PKGBUILD -execdir namcap \{\} \;
+      find pkgbuilds/ -name PKGBUILD -print0 | xargs -0 -n1 namcap
   - build: |
-      find pkgbuilds/ -name PKGBUILD -execdir makepkg -is --noprogressbar --noconfirm \{\} \;
+      cd pkgbuilds/
+      for f in *; do pushd $f; makepkg -is --noprogressbar --noconfirm; popd; done
   - check: |
-      find pkgbuilds/ -name '*.pkg.tar.xz' -execdir namcap \{\} \;
+      find pkgbuilds/ -name '*.pkg.tar.xz' -print0 | xargs -0 -n1 namcap
