@@ -82,3 +82,7 @@
 	path = libraw16
 	url = https://aur.archlinux.org/libraw16.git
 	pushUrl = ssh://aur@aur.archlinux.org/libraw16.git
+[submodule "python-sortedcollections"]
+	path = python-sortedcollections
+	url = https://aur.archlinux.org/python-sortedcollections.git
+	pushUrl = ssh://aur@aur.archlinux.org/python-sortedcollections.git
