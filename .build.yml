@@ -8,6 +8,6 @@ tasks:
   - lint: |
       find pkgbuilds/ -name PKGBUILD -execdir namcap \{\} \;
   - build: |
-      find pkgbuilds/ -name PKGBUILD -execdir makepkg -is --noprogressbar \{\} \;
+      find pkgbuilds/ -name PKGBUILD -execdir makepkg -is --noprogressbar --noconfirm \{\} \;
   - check: |
       find pkgbuilds/ -name '*.pkg.tar.xz' -execdir namcap \{\} \;
