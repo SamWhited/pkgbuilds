@@ -6,12 +6,12 @@ sources:
   - https://git.sr.ht/~samwhited/pkgbuilds
 tasks:
   - setup: |
-    cd pkgbuilds/
-    git submodule init
-    git submodule update
+      cd pkgbuilds/
+      git submodule init
+      git submodule update
   - lint: |
-    find pkgbuilds/ -name PKGBUILD -execdir namcap \{\} \;
-  - build:
-    find pkgbuilds/ -name PKGBUILD -execdir makepkg \{\} \;
-  - check:
-    find pkgbuilds/ -name '*.pkg.tar.xz' -execdir namcap \{\} \;
+      find pkgbuilds/ -name PKGBUILD -execdir namcap \{\} \;
+  - build: |
+      find pkgbuilds/ -name PKGBUILD -execdir makepkg \{\} \;
+  - check: |
+      find pkgbuilds/ -name '*.pkg.tar.xz' -execdir namcap \{\} \;
