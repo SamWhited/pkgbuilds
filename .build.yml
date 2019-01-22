@@ -5,10 +5,6 @@ packages:
 sources:
   - https://git.sr.ht/~samwhited/pkgbuilds
 tasks:
-  - setup: |
-      cd pkgbuilds/
-      git submodule init
-      git submodule update
   - lint: |
       find pkgbuilds/ -name PKGBUILD -execdir namcap \{\} \;
   - build: |
