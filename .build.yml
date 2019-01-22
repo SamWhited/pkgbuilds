@@ -9,6 +9,6 @@ tasks:
       find pkgbuilds/ -name PKGBUILD -print0 | xargs -0 -n1 namcap
   - build: |
       cd pkgbuilds/
-      for f in *; do pushd $f; makepkg -is --noprogressbar --noconfirm --nocheck; popd; done
+      for f in *; do pushd $f; yes y | makepkg -is --noprogressbar --nocheck; popd; done
   - check: |
       find pkgbuilds/ -name '*.pkg.tar.xz' -print0 | xargs -0 -n1 namcap
