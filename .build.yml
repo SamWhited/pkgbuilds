@@ -12,6 +12,6 @@ tasks:
   - lint: |
       find pkgbuilds/ -name PKGBUILD -execdir namcap \{\} \;
   - build: |
-      find pkgbuilds/ -name PKGBUILD -execdir makepkg \{\} \;
+      find pkgbuilds/ -name PKGBUILD -execdir makepkg -is --noprogressbar \{\} \;
   - check: |
       find pkgbuilds/ -name '*.pkg.tar.xz' -execdir namcap \{\} \;
