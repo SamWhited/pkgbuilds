@@ -86,3 +86,7 @@
 	path = python-sortedcollections
 	url = https://aur.archlinux.org/python-sortedcollections.git
 	pushUrl = ssh://aur@aur.archlinux.org/python-sortedcollections.git
+[submodule "anita"]
+	path = anita
+	url = https://aur.archlinux.org/anita.git
+	pushUrl = ssh://aur@aur.archlinux.org/anita.git
