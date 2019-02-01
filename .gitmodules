@@ -34,10 +34,6 @@
 	path = python-aiosasl
 	url = https://aur.archlinux.org/python-aiosasl.git
 	pushUrl = ssh://aur@aur.archlinux.org/python-aiosasl.git
-[submodule "hugo-git"]
-	path = hugo-git
-	url = https://aur.archlinux.org/hugo-git.git
-	pushUrl = ssh://aur@aur.archlinux.org/hugo-git.git
 [submodule "writeas-gtk"]
 	path = writeas-gtk
 	url = https://aur.archlinux.org/writeas-gtk.git
