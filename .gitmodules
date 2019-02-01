@@ -26,10 +26,6 @@
 	path = go-tools-git
 	url = https://aur.archlinux.org/go-tools-git.git
 	pushUrl = ssh://aur@aur.archlinux.org/go-tools-git.git
-[submodule "gitea-git"]
-	path = gitea-git
-	url = https://aur.archlinux.org/gitea-git.git
-	pushUrl = ssh://aur@aur.archlinux.org/gitea-git.git
 [submodule "python-psycopg2-binary"]
 	path = python-psycopg2-binary
 	url = https://aur.archlinux.org/python-psycopg2-binary.git
