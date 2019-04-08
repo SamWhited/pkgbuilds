@@ -82,3 +82,6 @@
 	path = anita
 	url = https://aur.archlinux.org/anita.git
 	pushUrl = ssh://aur@aur.archlinux.org/anita.git
+[submodule "ttf-public-sans"]
+	path = ttf-public-sans
+	url = https://aur.archlinux.org/ttf-public-sans.git
