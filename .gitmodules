@@ -85,3 +85,9 @@
 [submodule "ttf-public-sans"]
 	path = ttf-public-sans
 	url = https://aur.archlinux.org/ttf-public-sans.git
+[submodule "ttf-dita-sweet"]
+	path = ttf-dita-sweet
+	url = https://aur.archlinux.org/ttf-dita-sweet.git
+[submodule "ttf-nixie-one"]
+	path = ttf-nixie-one
+	url = https://aur.archlinux.org/ttf-nixie-one.git
