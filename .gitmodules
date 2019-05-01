@@ -91,3 +91,6 @@
 [submodule "ttf-nixie-one"]
 	path = ttf-nixie-one
 	url = https://aur.archlinux.org/ttf-nixie-one.git
+[submodule "ttf-air-americana"]
+	path = ttf-air-americana
+	url = https://aur.archlinux.org/ttf-air-americana.git
