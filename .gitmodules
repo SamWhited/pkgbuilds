@@ -94,3 +94,6 @@
 [submodule "ttf-air-americana"]
 	path = ttf-air-americana
 	url = https://aur.archlinux.org/ttf-air-americana.git
+[submodule "ttf-national-park"]
+	path = ttf-national-park
+	url = https://aur.archlinux.org/ttf-national-park.git
