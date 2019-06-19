@@ -97,3 +97,6 @@
 [submodule "ttf-national-park"]
 	path = ttf-national-park
 	url = https://aur.archlinux.org/ttf-national-park.git
+[submodule "nodejs-triton"]
+	path = nodejs-triton
+	url = https://aur.archlinux.org/nodejs-triton.git
