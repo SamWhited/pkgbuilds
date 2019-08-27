@@ -6,10 +6,6 @@
 	path = jackal
 	url = https://aur.archlinux.org/jackal.git
 	pushUrl = ssh://aur@aur.archlinux.org/jackal.git
-[submodule "writefreely-git"]
-	path = writefreely-git
-	url = https://aur.archlinux.org/writefreely-git.git
-	pushUrl = ssh://aur@aur.archlinux.org/writefreely-git.git
 [submodule "writefreely"]
 	path = writefreely
 	url = https://aur.archlinux.org/writefreely.git
@@ -50,14 +46,6 @@
 	path = prometheus-xmpp-webhook-git
 	url = https://aur.archlinux.org/prometheus-xmpp-webhook-git.git
 	pushUrl = ssh://aur@aur.archlinux.org/prometheus-xmpp-webhook-git.git
-[submodule "writeas-gtk-git"]
-	path = writeas-gtk-git
-	url = https://aur.archlinux.org/writeas-gtk-git.git
-	pushUrl = ssh://aur@aur.archlinux.org/writeas-gtk-git.git
-[submodule "writeas-cli-git"]
-	path = writeas-cli-git
-	url = https://aur.archlinux.org/writeas-cli-git.git
-	pushUrl = ssh://aur@aur.archlinux.org/writeas-cli-git.git
 [submodule "writeas-cli"]
 	path = writeas-cli
 	url = https://aur.archlinux.org/writeas-cli.git
