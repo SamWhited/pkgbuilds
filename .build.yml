@@ -6,6 +6,7 @@ packages:
   - python-aiosasl
   - python-orderedset
   - python-sortedcollections
+  - python2-sortedcontainers
 sources:
   - https://git.sr.ht/~samwhited/pkgbuilds
 tasks:
