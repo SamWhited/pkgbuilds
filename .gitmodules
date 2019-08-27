@@ -38,14 +38,6 @@
 	path = prometheus-xmpp-webhook
 	url = https://aur.archlinux.org/prometheus-xmpp-webhook.git
 	pushUrl = ssh://aur@aur.archlinux.org/prometheus-xmpp-webhook.git
-[submodule "prometheus-xmpp-webhook-bin"]
-	path = prometheus-xmpp-webhook-bin
-	url = https://aur.archlinux.org/prometheus-xmpp-webhook-bin.git
-	pushUrl = ssh://aur@aur.archlinux.org/prometheus-xmpp-webhook-bin.git
-[submodule "prometheus-xmpp-webhook-git"]
-	path = prometheus-xmpp-webhook-git
-	url = https://aur.archlinux.org/prometheus-xmpp-webhook-git.git
-	pushUrl = ssh://aur@aur.archlinux.org/prometheus-xmpp-webhook-git.git
 [submodule "writeas-cli"]
 	path = writeas-cli
 	url = https://aur.archlinux.org/writeas-cli.git
