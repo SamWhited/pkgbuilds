@@ -1,7 +1,3 @@
-[submodule "jackal-git"]
-	path = jackal-git
-	url = https://aur.archlinux.org/jackal-git.git
-	pushUrl = ssh://aur@aur.archlinux.org/jackal-git.git
 [submodule "jackal"]
 	path = jackal
 	url = https://aur.archlinux.org/jackal.git
