@@ -2,6 +2,10 @@ image: archlinux
 packages:
   - git
   - namcap
+  - python-aioopenssl
+  - python-aiosasl
+  - python-orderedset
+  - python-sortedcollections
 sources:
   - https://git.sr.ht/~samwhited/pkgbuilds
 tasks:
