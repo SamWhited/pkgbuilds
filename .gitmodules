@@ -73,3 +73,6 @@
 [submodule "ttf-national-park"]
 	path = ttf-national-park
 	url = https://aur.archlinux.org/ttf-national-park.git
+[submodule "buildkit"]
+	path = buildkit
+	url = https://aur.archlinux.org/buildkit.git
