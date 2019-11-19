@@ -76,3 +76,6 @@
 [submodule "buildkit"]
 	path = buildkit
 	url = https://aur.archlinux.org/buildkit.git
+[submodule "purism-chatty"]
+	path = purism-chatty
+	url = https://aur.archlinux.org/purism-chatty.git
