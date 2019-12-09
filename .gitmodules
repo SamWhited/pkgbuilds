@@ -79,3 +79,6 @@
 [submodule "purism-chatty"]
 	path = purism-chatty
 	url = https://aur.archlinux.org/purism-chatty.git
+[submodule "vultr-cli"]
+	path = vultr-cli
+	url = https://aur.archlinux.org/vultr-cli.git
