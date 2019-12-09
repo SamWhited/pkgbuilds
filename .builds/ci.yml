@@ -2,11 +2,6 @@ image: archlinux
 packages:
   - git
   - namcap
-  - python-aioopenssl
-  - python-aiosasl
-  - python-orderedset
-  - python-sortedcollections
-  - python2-sortedcontainers
   - nodejs-less-plugin-clean-css
 sources:
   - https://git.sr.ht/~samwhited/pkgbuilds
