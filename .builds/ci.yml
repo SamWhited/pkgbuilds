@@ -6,6 +6,9 @@ packages:
   - nodejs-less-plugin-clean-css
 sources:
   - https://git.sr.ht/~samwhited/pkgbuilds
+environment:
+  PKGEXT: .pkg.tar
+  SRCEXT: .src.tar
 tasks:
   - lint: |
       find pkgbuilds/ -name PKGBUILD -print0 | xargs -0 -n1 namcap
@@ -13,4 +16,4 @@ tasks:
       cd pkgbuilds/
       for f in *; do pushd $f; makepkg -s --noprogressbar --nocheck --noconfirm; popd; done || true
   - check: |
-      find pkgbuilds/ -name '*.pkg.tar.xz' -print0 | xargs -0 -n1 namcap
+      find pkgbuilds/ -name '*.pkg.tar' -print0 | xargs -0 -n1 namcap
