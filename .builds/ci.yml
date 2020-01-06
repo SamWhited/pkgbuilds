@@ -1,5 +1,6 @@
 image: archlinux
 packages:
+  - docker
   - git
   - namcap
   - nodejs-less-plugin-clean-css
