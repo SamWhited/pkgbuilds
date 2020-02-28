@@ -79,3 +79,6 @@
 [submodule "vultr-cli"]
 	path = vultr-cli
 	url = https://git.sr.ht/~samwhited/vultr-cli
+[submodule "feedbackd"]
+	path = feedbackd
+	url = https://aur.archlinux.org/feedbackd.git
