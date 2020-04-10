@@ -82,3 +82,6 @@
 [submodule "feedbackd"]
 	path = feedbackd
 	url = https://aur.archlinux.org/feedbackd.git
+[submodule "jitsi-meet-desktop"]
+	path = jitsi-meet-desktop
+	url = https://aur.archlinux.org/jitsi-meet-desktop.git
