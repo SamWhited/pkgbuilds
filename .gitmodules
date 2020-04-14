@@ -85,3 +85,6 @@
 [submodule "jitsi-meet-desktop"]
 	path = jitsi-meet-desktop
 	url = https://aur.archlinux.org/jitsi-meet-desktop.git
+[submodule "ipmicfg"]
+	path = ipmicfg
+	url = https://aur.archlinux.org/ipmicfg.git
