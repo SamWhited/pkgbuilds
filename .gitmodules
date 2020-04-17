@@ -88,3 +88,6 @@
 [submodule "ipmicfg"]
 	path = ipmicfg
 	url = https://aur.archlinux.org/ipmicfg.git
+[submodule "libraw19"]
+	path = libraw19
+	url = https://aur.archlinux.org/libraw19.git
