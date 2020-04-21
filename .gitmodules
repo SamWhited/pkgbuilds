@@ -91,3 +91,9 @@
 [submodule "libraw19"]
 	path = libraw19
 	url = https://aur.archlinux.org/libraw19.git
+[submodule "ietf-idnits"]
+	path = ietf-idnits
+	url = https://aur.archlinux.org/ietf-idnits.git
+[submodule "ietf-id2xml"]
+	path = ietf-id2xml
+	url = https://aur.archlinux.org/ietf-id2xml.git
