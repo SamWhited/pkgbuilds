@@ -97,3 +97,6 @@
 [submodule "ietf-id2xml"]
 	path = ietf-id2xml
 	url = https://aur.archlinux.org/ietf-id2xml.git
+[submodule "prometheus-xmpp-blackbox-exporter"]
+	path = prometheus-xmpp-blackbox-exporter
+	url = https://aur.archlinux.org/prometheus-xmpp-blackbox-exporter.git
