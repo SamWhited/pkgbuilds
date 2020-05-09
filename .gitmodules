@@ -100,3 +100,6 @@
 [submodule "prometheus-xmpp-blackbox-exporter"]
 	path = prometheus-xmpp-blackbox-exporter
 	url = https://aur.archlinux.org/prometheus-xmpp-blackbox-exporter.git
+[submodule "ietf-xml2rfc"]
+	path = ietf-xml2rfc
+	url = https://aur.archlinux.org/ietf-xml2rfc.git
