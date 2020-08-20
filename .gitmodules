@@ -103,3 +103,6 @@
 [submodule "terraform-provider-stripe"]
 	path = terraform-provider-stripe
 	url = https://aur.archlinux.org/terraform-provider-stripe.git
+[submodule "stripe-cli"]
+	path = stripe-cli
+	url = https://aur.archlinux.org/stripe-cli.git
